@@ -1,0 +1,58 @@
+body {
+    margin-left: 35%;
+    margin-top: 5%;
+}
+@font-face {
+    font-family: LCD-7 ;
+    src: url(sp.ttf);
+}
+#calcul{
+    border: black 5px double;
+    width: 50%;
+    height: 70vh;
+    background: cadetblue;
+}
+
+
+input {
+    height: 10vh;
+    width: 80%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-top: 4%;
+    border: black 3px solid;
+    box-shadow:black 3px 3px;
+    font-size: 150%;
+    color: black;
+    font-family: LCD-7;
+    
+}
+button {
+    width: 15%;
+    height: 7vh;
+    margin-left: 2%;
+    margin-top: 2%;
+    font-size: 250%;
+    color: white;
+    background: black;
+    box-shadow: white 3px 3px;
+    
+}
+button:nth-child(1){
+    margin-left: 8%;
+}
+button:nth-child(25){
+    margin-left: 8%;
+}
+button:nth-child(26){
+    margin-left: -20%;
+}
+button:nth-child(5n+1){
+   margin-left: 8%;
+}
+.enter {
+    width: 32.6%;
+}
+#procent {
+    margin-left: 2%;
+}
